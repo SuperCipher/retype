@@ -1,0 +1,23 @@
+{
+  "name": "retype",
+  "version": "1.0.0",
+  "description": "--- label: Home icon: home --- # Leiden.capital manifesto",
+  "main": "index.js",
+  "scripts": {
+    "build": "retype build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperCipher/retype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperCipher/retype/issues"
+  },
+  "homepage": "https://github.com/SuperCipher/retype#readme",
+  "dependencies": {
+    "retype": "^0.2.0"
+  }
+}
