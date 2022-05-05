@@ -28,7 +28,7 @@ Blockchain หรือ ระบบที่คล้ายกับ Blockchain
 เมื่อเราเลือก ประเภทของ Blockchain ได้แล้วตัวเลือกของ Blockchain ก็จะลดลง
 เกณฑ์ในการเลือก blockchain ก็เช่น ต้องการ Smart Contract advance ระดับไหน, ต้องการความ decentralize มากแค่ไหน, ต้องการ scale ระดับไหน, ต้องการความปลอดภัยระดับไหน
 นี้เป็น graph  ที่แสดงความความสามารถคร่าวๆของแต่ละ chain
-[!embed](https://codesandbox.io/embed/compassionate-voice-tgqzu?fontsize=14&hidenavigation=1&theme=dark)
+[!embed](https://codesandbox.io/embed/compassionate-voice-tgqzu?fontsize=14&hidenavigation=1&theme=dark&view=preview)
 
 ## 3. Tokenomics + Game theory จะออกแบบตลาดหรือกลไกทางผลประโยชน์อย่างไร
 การที่เราจะทำให้เหรียญของเราเป็นที่ต้องการ เหรียญของเราจะต้องให้ผลประโยชน์กับผู้ถือ ไม่ว่าจะเป็นประโยชน์ทางการใช้งานเช่น Governed token สำหรับ Vote หรือ Initial Coin Offering (ICO) สำหรับใช้จ่ายใน platform นั้นๆ
