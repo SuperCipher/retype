@@ -4,8 +4,6 @@ url: retype.com
 
 branding:
   logo: /static/LEIDENCAPTAL-icon.png
-  # logoDark: /static/retype-logo-dark.svg
-  # label: v1.11.2
 
 meta:
   title: "LEIDEN.CAPITAL Blockchain educational platform"
