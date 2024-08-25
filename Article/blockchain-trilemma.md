@@ -1,26 +1,35 @@
 ---
 order: 100
 icon: checklist
-tags: [decentralize, security, performance]
+tags: [decentralization, security, Testability, Transparency, Standard]
 ---
-[!embed](https://codesandbox.io/embed/compassionate-voice-tgqzu?fontsize=14&hidenavigation=1&theme=dark&view=preview)
 
-Blockchain is not perfect just like any other solution. Compromise has to be made in order to trailer to specific use case.
+# DAPP
 
-There is 3 competing axis in this trilemma Decentralize, Security and Performance
+## Security
 
-Many chain and many network has been create but non of them can be considered a break through.
-All of them compromise some axis to gain in the opposite axis
+1. Main net fork-ability
+  1. feature to simulate future transaction on Main net without test net 
+	 2. application shouldn't know if they're connect to Main net live or Main net fork
+	 3. Single point of connectivity (application should strive to only require rpc form user wallet) maybe create a specific browser that block all conectivity and only expose rpc API
+	 4. impersonate wallet (change to some one else address and interact with the contract on their behalf)
+  5. Put common functionality in the wallet as much as possible. E.g. swap coin instead of each swap implement the same functional over and over in a slight difference way just call a wallet API for it or currency API
 
-# there is many network
+## Testability
 
-In order to help people comparing different chain quickly
+1. No TESTNET!!! (Why ? dependency of the contract might not deploy)
 
-# Criteria
+## Transparency
 
-Here I made a Radar chart in hope of quantified and comparing different blockchain solution.
-
-This is just a proof of concept improvement is very much needed. and error is guarantee.
-But the first step have been taken.
-
-Next iteration will separate focus on separate blockchain in to different categories to make scoring easier.
+1. Developer mode/ Audit mode/ transparency mode
+2. On chain smart contract traceability to code base verification and discovery (smartcontract hash that link to a build artifact on GitHub)
+3. Where the contract deploy (address)
+4. Uncompressed unminified deuglified frontend (Solved commercialization first)
+5. API transparency show what API front end is connected to and  ability to connect to self host opensource API serve
+	1. e.g. opensource indexer
+6. Standardization single source of dependency reuse dependency as much as possible to consolidate security resource to common share library and decrease variant between different application make it easier to vet the source code since most DAPP using the same library user only need to check the implementation of the library instead of the the library it self
+7. Standardization of interface
+8. Ability to change API endpoint or RPC endpoint
+9. display compatibility status on different data base on different chain on different 
+10. contractwallet detect different chain on different contract
+start with problem
