@@ -4,7 +4,7 @@ icon: checklist
 tags: [decentralization, security, Testability, Transparency, Standard]
 ---
 
-# DAPP
+# DAPP Gold Standard
 
 ## Security
 
