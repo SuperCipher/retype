@@ -20,11 +20,13 @@ Security
 6. Dapp must not show nor rely on stale data
 
 Testability
+
 6. Wallet should have intuitive UI to [impersonate as other account](https://yos.io/2021/09/11/real-world-contract-development-forking-mainnet/#impersonating-as-other-accounts)
 
 7. Dapp testing should limited the use of testnet as much as possible since they are not representative of the actual mainnet e.g. Compound Ethereum Sepolia Testnet don't LINK contract deployed like Ethereum Mainnet
 
 Transparency
+
 8. Dapp must clearly disclose all contract address that Dapp is interact with on the current chain
 
 9. Dapp must clearly disclose all API URL that Dapp is relying on
